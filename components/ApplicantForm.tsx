@@ -110,7 +110,7 @@ const ApplicantForm: React.FC = () => {
               Chez Sophia, on veut une ambiance simple et sincère, où chacun trouve sa place, progresse et prend plaisir à venir travailler. On aime les personnes impliquées, curieuses, respectueuses, qui ont envie de bien faire.
             </p>
             <p className="font-medium text-[#145A8B] text-xl pt-2">
-              Si tu cherches un endroit vivant, solaire, avec une vraie dynamique d’équipe et l’envie de construire quelque chose sur la durée, tu es au bon endroit.
+              Si tu cherches un endroit vivant, solaire, avec une vraie dynamique d’équipe, tu es au bon endroit.
             </p>
           </div>
         </div>
