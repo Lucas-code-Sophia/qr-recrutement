@@ -201,7 +201,7 @@ const ApplicantForm: React.FC = () => {
                   name="startDate"
                   value={formData.startDate}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-[#061E3E] focus:ring-2 focus:ring-[#145A8B] focus:border-transparent outline-none transition-all"
+                  className="w-full px-4 py-4 text-lg rounded-lg border border-gray-300 bg-white text-[#061E3E] focus:ring-2 focus:ring-[#145A8B] focus:border-transparent outline-none transition-all"
                 />
               </div>
               <div>
@@ -212,7 +212,7 @@ const ApplicantForm: React.FC = () => {
                   name="endDate"
                   value={formData.endDate}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-[#061E3E] focus:ring-2 focus:ring-[#145A8B] focus:border-transparent outline-none transition-all"
+                  className="w-full px-4 py-4 text-lg rounded-lg border border-gray-300 bg-white text-[#061E3E] focus:ring-2 focus:ring-[#145A8B] focus:border-transparent outline-none transition-all"
                 />
               </div>
             </div>
