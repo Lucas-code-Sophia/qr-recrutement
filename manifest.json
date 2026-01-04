@@ -1,0 +1,21 @@
+{
+  "name": "Sofia Recrutement",
+  "short_name": "Sofia Job",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#DAF6FC",
+  "theme_color": "#145A8B",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/1995/1995562.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/1995/1995562.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
