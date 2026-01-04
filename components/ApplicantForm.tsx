@@ -184,10 +184,8 @@ const ApplicantForm: React.FC = () => {
               >
                 <option value="">Sélectionnez un poste...</option>
                 <option value="Serveur">Serveur / Serveuse</option>
-                <option value="Cuisinier">Cuisinier / Chef</option>
+                <option value="Cuisinier">Cuisinier</option>
                 <option value="Barman">Barman</option>
-                <option value="Hôte">Hôte / Hôtesse</option>
-                <option value="Manager">Manager</option>
                 <option value="Plongeur">Plongeur</option>
               </select>
             </div>
