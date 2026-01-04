@@ -53,7 +53,6 @@ const Navigation = () => {
   
   const navLinks = [
     { path: '/apply', label: 'Candidature', icon: PenTool },
-    { path: '/admin', label: 'Admin', icon: Shield },
   ];
 
   return (
