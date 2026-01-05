@@ -76,7 +76,7 @@ const AdminDashboard: React.FC = () => {
     try {
       const canvas = await html2canvas(qrRef.current, { useCORS: true, scale: 2 });
       const link = document.createElement('a');
-      link.download = 'sofia-recrutement-qrcode.png';
+      link.download = 'sophia-recrutement-qrcode.png';
       link.href = canvas.toDataURL();
       link.click();
     } catch (err) {
@@ -365,7 +365,7 @@ const AdminDashboard: React.FC = () => {
             </button>
 
             <div ref={qrRef} className="bg-white p-4 flex flex-col items-center text-center">
-               <h3 className="text-2xl font-bold text-[#061E3E] mb-1">Sofia Recrutement</h3>
+               <h3 className="text-2xl font-bold text-[#061E3E] mb-1">Sophia Recrutement</h3>
                <p className="text-[#145A8B] font-medium mb-4 uppercase tracking-widest text-sm">Saison 2026</p>
                
                {/* Input pour vérifier/modifier l'URL */}

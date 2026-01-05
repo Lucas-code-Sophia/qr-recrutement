@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { HashRouter, Routes, Route, Link, Navigate, useLocation } from 'react-router-dom';
 import ApplicantForm from './components/ApplicantForm';
 import AdminDashboard from './components/AdminDashboard';
-import { Shield, PenTool, Menu, X, ChefHat } from 'lucide-react';
+import { Shield, PenTool, Menu, X, Utensils } from 'lucide-react';
 
 // Protected Route Component
 const ProtectedRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
@@ -61,7 +61,7 @@ const Navigation = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center gap-2">
             <div className="bg-[#145A8B] p-2 rounded-lg">
-              <ChefHat className="w-6 h-6 text-white" />
+              <img src="/icon.png" alt="Logo Sophia" className="w-6 h-6" />
             </div>
             <span className="font-bold text-xl text-[#061E3E] hidden sm:block">Recrutement SOPHIA - Saison 2026</span>
           </div>

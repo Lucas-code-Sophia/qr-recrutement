@@ -1,4 +1,4 @@
-const CACHE_NAME = 'sofia-recrut-v1';
+const CACHE_NAME = 'sophia-recrut-v1';
 
 self.addEventListener('install', (event) => {
   self.skipWaiting();
